@@ -2,7 +2,7 @@ asgiref==3.5.2
 certifi==2022.5.18.1
 charset-normalizer==2.0.12
 distlib==0.3.4
-Django==4.0.5
+Django==4.1
 filelock==3.7.0
 idna==3.3
 Pillow==9.1.1

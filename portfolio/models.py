@@ -8,3 +8,9 @@ class Project(models.Model):
     description = CharField(max_length=250)
     image = ImageField(upload_to="portfolio/images/")
     url = URLField(blank=True)
+
+    class Meta:
+        verbose_name = "Project"
+        verbose_name_plural = "Projects"
+    def __str__(self):
+        return self.title
